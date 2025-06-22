@@ -84,27 +84,28 @@ Node.js 16.x branch
 
 ```shell
 git clone -b napi-libnode-v16.x https://github.com/veogeo/mmomtchev--node.git
-cd node && ./configure --shared && make -j4
+cd mmomtchev--node && ./configure --shared && make -j4
 ```
 
 Node.js 18.x branch
 
 ```shell
 git clone -b napi-libnode-v18.x https://github.com/veogeo/mmomtchev--node.git
-cd node && bash build-libnode-debs.sh
+cd mmomtchev--node && bash build-libnode-debs.sh
 ```
 
 Node.js main branch
 
 ```shell
 git clone -b napi-libnode https://github.com/veogeo/mmomtchev--node.git
-cd node && ./configure --shared && make -j4
+cd mmomtchev--node && ./configure --shared && make -j4
 ```
 
 C++ API extensions
 ```shell
 git clone -b napi_embedding https://github.com/veogeo/mmomtchev--node-addon-api.git
-// Then include `napi.h` from $(pwd)/node-addon-api
+cd mmomtchev--node-addon-api && bash build-node-addon-api-deb.sh
+// Optionally you can include `napi.h` from $(pwd)/node-addon-api
 ```
 
 # Using from C
