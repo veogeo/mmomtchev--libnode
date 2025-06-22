@@ -97,7 +97,7 @@ cd node && bash build-libnode-debs.sh
 Node.js main branch
 
 ```shell
-git clone -b napi-libnode https://github.com/veogeo/mmomtchev--node.git
+git clone -b napi_libnode https://github.com/veogeo/mmomtchev--node.git
 cd node && ./configure --shared && make -j4
 ```
 
