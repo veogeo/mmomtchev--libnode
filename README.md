@@ -103,7 +103,7 @@ cd node && ./configure --shared && make -j4
 
 C++ API extensions
 ```shell
-git clone -b napi_embedding https://github.com/mmomtchev/node-addon-api.git
+git clone -b napi_embedding https://github.com/veogeo/mmomtchev--node-addon-api.git
 // Then include `napi.h` from $(pwd)/node-addon-api
 ```
 
