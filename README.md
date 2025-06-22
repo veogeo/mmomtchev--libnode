@@ -83,21 +83,21 @@ sudo apt install node-addon-api # with C++
 Node.js 16.x branch
 
 ```shell
-git clone -b napi-libnode-v16.x https://github.com/mmomtchev/node.git
+git clone -b napi-libnode-v16.x https://github.com/veogeo/mmomtchev--node.git
 cd node && ./configure --shared && make -j4
 ```
 
 Node.js 18.x branch
 
 ```shell
-git clone -b napi-libnode-v18.x https://github.com/mmomtchev/node.git
-cd node && ./configure --shared && make -j4
+git clone -b napi-libnode-v18.x https://github.com/veogeo/mmomtchev--node.git
+cd node && bash build-libnode-debs.sh
 ```
 
 Node.js main branch
 
 ```shell
-git clone -b napi-libnode https://github.com/mmomtchev/node.git
+git clone -b napi-libnode https://github.com/veogeo/mmomtchev--node.git
 cd node && ./configure --shared && make -j4
 ```
 
